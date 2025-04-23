@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    font-family: "Roboto", sans-serif;
+    font-size: 12pt;
+    color: #303030;
+}
+
+.gambar-kecil {
+    width: 70%;
+    height: auto;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    height: auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+p {
+    margin: 20px 0;
+    line-height: 1.8em;
+}
+
+main {
+    margin: 50px 0;
+}
+main {
+    margin: 0;
+    font-family: "Courgette", sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    text-align: center;
+    text-shadow: 0 1px 0 #fff;
+}
+
+div {
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 1%;
+}
+
+.navbar-horizontal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+    
+}
+
+
+.navbar-horizontal .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-horizontal .nav-links li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.navbar-horizontal .nav-links li a:hover {
+    color: #ff0000;
+}
+
+.responsif-teks {
+    font-size: clamp(14px, 2.5vw, 24px);
+}
+
+.judul-responsif {
+    font-size: clamp(20px, 5vw, 36px);
+    font-weight: bold;
+    color: #111827;
+    margin-bottom: 16px;
+}
+
+.judul-utama {
+    font-size: clamp(28px, 6vw, 48px);
+    font-weight: 800;
+    color: #0f172a;
+    text-align: center;
+    margin: 40px 0;
+}
