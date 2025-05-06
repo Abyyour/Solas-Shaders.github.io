@@ -54,8 +54,8 @@ div {
 
 
 .navbar-horizontal .nav-links {
-    list-style: none;
     display: flex;
+    justify-content: center;
     gap: 24px;
     margin: 0;
     padding: 0;
@@ -69,7 +69,7 @@ div {
 }
 
 .navbar-horizontal .nav-links li a:hover {
-    color: #ff0000;
+    color: #ffffff;
 }
 
 .responsif-teks {
